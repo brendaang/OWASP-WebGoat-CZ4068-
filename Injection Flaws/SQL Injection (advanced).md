@@ -52,3 +52,7 @@ passW0rD
   - so in the case where nothing is displayed
   - have to start asking the database true or false questions.
   - therefore blind SQL injection much more difficult to exploit.
+
+## Blind SQL Injection Exercise
+Steps taken:
+- Use Burp to catch the request at 
