@@ -49,3 +49,6 @@ passW0rD
   - gives enough information to find out how the query is working
 - Blind SQL Injection
   - application does not reflect the information directly on the webpage
+  - so in the case where nothing is displayed
+  - have to start asking the database true or false questions.
+  - therefore blind SQL injection much more difficult to exploit.
