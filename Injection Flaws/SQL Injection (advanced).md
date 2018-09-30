@@ -75,3 +75,9 @@ The rest of the fields can be left as is.
 
 Note: This part is weird. The response says my lesson is complete but I haven't logged  in as Tom, and all I did was as the database a boolean question. I have emailed Prof Shar, and he hasn't replied me. Feel free to try this part and let me know if you found something. Gonna retry this after Prof Shar gets back to me.
 ~ Brenda
+
+Found an alternative solution here:
+https://bbs.ichunqiu.com/thread-39244-1-1.html
+
+But Prof Shar says this:
+![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/6%20response%20for%20adv%20sqli.PNG?token=ANjmpuf3F7JarJx3Z8ed86X-M4P0nDn4ks5buY-vwA%3D%3D)
