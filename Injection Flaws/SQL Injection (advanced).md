@@ -80,4 +80,5 @@ Found an alternative solution here:
 https://bbs.ichunqiu.com/thread-39244-1-1.html
 
 But Prof Shar says this:
+
 ![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/6%20response%20for%20adv%20sqli.PNG?token=ANjmpuf3F7JarJx3Z8ed86X-M4P0nDn4ks5buY-vwA%3D%3D)
