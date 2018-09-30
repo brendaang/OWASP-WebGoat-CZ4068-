@@ -55,4 +55,23 @@ passW0rD
 
 ## Blind SQL Injection Exercise
 Steps taken:
-- Use Burp to catch the request at 
+- Use Burp to catch the request at the register webpage
+- Details:
+  - Username: user
+  - Email: test@test.com
+  - Password: 123
+  - Retype Password: 123
+
+Once the request comes into Burp Proxy, change the username_reg field
+```
+user'AND substring(database_version(),1,1) = 2; --
+```
+
+The rest of the fields can be left as is.
+
+![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/4%20sqli%20burp%20request.PNG?token=ANjmpvbRGAnOFhcP3uWPspFu6D5QhviRks5buWiiwA%3D%3D)
+
+![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/5%20sqli%20burp%20response.PNG?token=ANjmppN9tBXpVH662iJEkwHHsMhvFp1Nks5buWl2wA%3D%3D)
+
+Note: This part is weird. The response says my lesson is complete but I haven't logged  in as Tom, and all I did was as the database a boolean question. I have emailed Prof Shar, and he hasn't replied me. Feel free to try this part and let me know if you found something. Gonna retry this after Prof Shar gets back to me.
+~ Brenda
