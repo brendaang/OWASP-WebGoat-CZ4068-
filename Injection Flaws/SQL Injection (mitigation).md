@@ -47,12 +47,15 @@ exec sp_executesql @sql
 - Click the sort by option on any of the columns on WebGoat
 
 See the response as below:
+
 ![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/7.%20sql%20mitigation%20default%20response.PNG?token=ANjmpri2x7EhrsJczd1zWAojl3puuvgzks5bubIZwA%3D%3D)
 
 Edit the response as below:
+
 ![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/8.%20sql%20mitigation%20changed%20response.PNG?token=ANjmpokQcCE5QPFbZY49rr1UqpzY0dmsks5bubI6wA%3D%3D)
 
 Submit and step to the next request or response, see that the table has been changed on WebGoat:
+
 ![alt text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/9%20effect%20on%20table.PNG?token=ANjmpuHvz6oPEwHvebP8h3Ld7S42Lqhoks5bubLBwA%3D%3D)
 
 Input the IP address of the Hostname that you have changed.
