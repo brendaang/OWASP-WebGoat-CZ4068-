@@ -68,3 +68,5 @@ Change comment section to:
 ]>
 <comment> <text>&xxe;</text></comment>
 ```
+## Blind XXE
+Placeholder
